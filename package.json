@@ -1,5 +1,5 @@
 {
-  "name": "id-generate",
+  "name": "id-random-generator",
   "version": "1.0.0",
   "description": "generate id for dinosa project",
   "main": "index.js",
