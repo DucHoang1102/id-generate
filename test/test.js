@@ -2,7 +2,7 @@ var chai      = require('chai'),
     assert    = chai.assert,
     expect    = chai.expect;
 
-var idGenerate = require('../index');
+var idGenerator = require('../index');
 
 var opts = {
     prefix: 'CT',
@@ -35,7 +35,7 @@ describe('Test id generate package', () => {
     for (let data of listData) {
 
         it (data.it, () => {
-            expect(idGenerate(data.opts)).to.be.an('error');
+            expect(idGenerator.generate(data.opts)).to.be.an('error');
         });
     }
 });
